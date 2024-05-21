@@ -1,6 +1,6 @@
 import { Component } from '@angular/core';
 const pdfMake = require('pdfmake/build/pdfmake.js');
-import * as pdfFonts from 'pdfmake/build/vfs_fonts.js';
+import * as pdfFonts from './vfs_fonts.js';
 @Component({
   selector: 'app-root',
   templateUrl: './app.component.html',
